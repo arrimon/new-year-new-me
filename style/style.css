@@ -2,4 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+/* Start Common CSS */
+.btn {
+    color: #005FAC;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* End Common CSS */
+
+#header {
+    height: 808px;
+    background: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 216px 230px 166px 845px;
+    display: flex;
+    justify-content: end;
+}
+.header-container {
+    text-align: right;
+}
+.header-container .header-content {
+    width: 525px;
+    height: 426px;
+}
+.header-container .header-content h2 {
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.header-container .header-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
 }
