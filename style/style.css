@@ -14,11 +14,25 @@
     border: none;
     border-radius: 5px;
 }
+#about,
+#plan {
+    background-color: #FFFFFF;
+    padding: 130px 30px;
+}
+
+.container {
+    width: 71%;
+    max-width: 1140px;
+    height: 725px;
+    margin: 0 auto;
+}
+
 
 /* End Common CSS */
 
+/* Header CSS Start */
 #header {
-    height: 808px;
+    height: 100vh;
     background: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,3 +58,114 @@
     color: #FFFFFF;
     margin-bottom: 32px;
 }
+
+/* Header CSS End */
+
+/* About CSS Start */
+.about-container {
+    width: 71%;
+    max-width: 1140px;
+    height: 725px;
+    /* border: 1px solid rosybrown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.about-image {
+    width: 606px;
+}
+.about-lastyear {
+    width: 443px;
+    padding-bottom: 40px;
+}
+.about-lastyear h2 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.about-lastyear p {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 17px;
+}
+.about-lastyear ul li {
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+}
+.f-icon {
+    width: 25px;
+    height: 24px;
+    color: #63E6BE;
+    margin-right: 10px;
+}
+/* About CSS End */
+
+/* Plan CSS Start */
+.plan-container {
+    height: 725px;
+    margin: 0 auto;
+}
+.plan-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+    margin: 50px 0;
+}
+.plan-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.plan-icon {
+    text-align: center;
+    width: 215px;
+    height: 197px;
+    margin-bottom: 100px;
+}
+.plan-icon img {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 14px;
+}
+.plan-icon:nth-child(3) img {
+    width: 93px;
+    height: 93px;
+}
+.plan-icon h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #151414;
+    margin: 0 0 16px 0;
+}
+.plan-icon p {
+    font-size: 20px;
+    color: #737272;
+}
+
+
+.plan-card {
+    background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 123, 255, 0.716),   
+      rgba(0, 123, 255, 0) 
+    ),
+    url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+.plan-card h2 {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+/* Plan CSS End */
