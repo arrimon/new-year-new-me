@@ -23,7 +23,6 @@
 .container {
     width: 71%;
     max-width: 1140px;
-    height: 725px;
     margin: 0 auto;
 }
 
@@ -169,3 +168,62 @@
     font-weight: 700;
 }
 /* Plan CSS End */
+
+/* Footer Section */
+#footer {
+    background-color: #151414;
+    color: #FFFFFF;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0;
+}
+.footer-future {
+    width: 485px;
+}
+.footer-subscribtion {
+    width: 325px;
+}
+.footer-future h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.footer-future p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer-future span {
+    font-weight: 600;
+}
+.footer-icon {
+    display: flex;
+    gap: 20px;
+}
+.footer-icon img {
+    width: 47px;
+    height: 46px;
+}
+.footer-subscribtion h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+.footer-subscribtion input[type="text"] {
+    width: 325px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    background-color: #151414;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.footer-subscribtion .btn {
+    color: #FFFFFF;
+    background-color: #005FAC;
+}
